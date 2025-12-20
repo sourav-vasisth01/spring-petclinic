@@ -1,5 +1,4 @@
-# this is the file for docker
-
+# this is the file
 FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
 COPY target/*.jar app.jar
